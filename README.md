@@ -74,7 +74,7 @@ Churn Reason
 
 ---
 
- 📸 Dashboard Preview
+###  Dashboard Preview
 
  Executive Summary Dashboard
 
@@ -92,7 +92,7 @@ Churn Reason
 
 ---
 
- 🎯 Business Objective
+ ### Business Objective
 
 Customer churn is a major challenge in the telecom industry, where retaining existing customers is significantly cheaper than acquiring new ones.
 
@@ -107,7 +107,7 @@ The insights help businesses design **data-driven retention campaigns and improv
 
 ---
 
- 📊 Power BI Dashboard Insights
+ ###  Power BI Dashboard Insights
 
 The Power BI dashboard provides a comprehensive view of customer churn across **demographics, contracts, services, payment methods, and geography.**
 
@@ -129,7 +129,7 @@ The Power BI dashboard provides a comprehensive view of customer churn across **
 
 ---
 
-🧱 Technology Stack
+### Technology Stack
 
 | Layer | Tools Used |
 |------|-------------|
@@ -142,7 +142,7 @@ The Power BI dashboard provides a comprehensive view of customer churn across **
 
 ---
 
-⚙️ Project Workflow
+### Project Workflow
 
 The project follows an **end-to-end data analytics pipeline**.
 
@@ -182,7 +182,7 @@ The ETL process converts raw telecom data into structured analytical datasets.
 
 ---
 
- 📊 Power BI Data Modeling
+ ### Power BI Data Modeling
 
 Additional transformations were performed inside Power BI.
 
@@ -208,13 +208,13 @@ Total Churn = SUM(prod_Churn[Churn Status])
 
 Churn Rate = [Total Churn] / [Total Customers]
 
- 🤖 Machine Learning – Churn Prediction
+ ### Machine Learning – Churn Prediction
 
 A **Random Forest Classifier** was used to predict customers who are likely to churn based on their demographic, service usage, and account information.
 
 ---
 
- Model Development
+Model Development
 
 The machine learning pipeline included the following steps:
 
@@ -229,7 +229,7 @@ The machine learning pipeline included the following steps:
 
 ---
 
-📡 Predicting Future Churners
+###  Predicting Future Churners
 
 The trained model was then used to predict churn probability for **new customers**.
 
