@@ -229,23 +229,59 @@ The machine learning pipeline included the following steps:
 
 ---
 
-###  Predicting Future Churners
+### Predicting Future Churners
 
-The trained model was then used to predict churn probability for **new customers**.
+The trained model was used to predict churn probability for new customers, enabling proactive retention strategies.
 
-Prediction Process
+1. Prediction Workflow
+Loaded the new customer dataset
+Applied the same preprocessing and encoding steps used during training
+Generated churn predictions using the trained model
+Exported results to a CSV file for Power BI visualization
+2. Feature Selection (Key Drivers)
+Contract Type
+Tenure
+Payment Method
+Monthly Charges
+Internet Services & Add-ons
+Customer Engagement Metrics
+3.  Model Performance
 
-1. Loaded **new customer dataset**.
-2. Applied the **same preprocessing and encoding steps** used during training.
-3. Generated **churn predictions using the trained model**.
-4. Exported predicted churn results to a **CSV file** for visualization in Power BI.
+Confusion Matrix:
 
-This allows businesses to **identify high-risk customers early and take preventive retention actions**.
+True Negatives: 784
+False Positives: 60
+False Negatives: 140
+True Positives: 218
+
+👉 Shows the model performs well in identifying non-churn customers but has some limitations in capturing all churn cases.
+
+Classification Report:
+
+Accuracy: 83%
+Precision (Churn = 1): 0.78
+Recall (Churn = 1): 0.61
+F1-Score (Churn = 1): 0.69
+
+👉 Interpretation (very important for interview):
+
+Good overall accuracy
+Precision is strong → predictions are reliable
+Recall is moderate → some churners are missed
+
+###  Key Prediction Insights
+Identified 405 high-risk churn customers
+Month-to-month contracts showed the highest churn probability
+Customers with low tenure (0–12 months) and electronic check payments were more likely to churn
+
 
 ---
 
 📈 Business Impact
 
+Enables early identification of churn-prone customers
+Supports targeted retention campaigns
+Helps reduce churn and improve customer lifetime value
 This project enables telecom companies to:
 
 - Understand **customer churn patterns**
