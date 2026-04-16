@@ -247,7 +247,7 @@ Internet Services & Add-ons
 Customer Engagement Metrics
 3.  Model Performance
 
-Confusion Matrix:
+-- Confusion Matrix:
 
 True Negatives: 784
 False Positives: 60
@@ -256,7 +256,7 @@ True Positives: 218
 
 👉 Shows the model performs well in identifying non-churn customers but has some limitations in capturing all churn cases.
 
-Classification Report:
+--  Classification Report:
 
 Accuracy: 83%
 Precision (Churn = 1): 0.78
@@ -277,7 +277,7 @@ Customers with low tenure (0–12 months) and electronic check payments were mor
 
 ---
 
-📈 Business Impact
+###  Business Impact
 
 Enables early identification of churn-prone customers
 Supports targeted retention campaigns
@@ -292,7 +292,7 @@ This project enables telecom companies to:
 
 ---
 
-✅ Final Outcome
+###  Final Outcome
 
 - Built an **end-to-end SQL + Power BI + Machine Learning analytics pipeline**
 - Developed an **interactive Power BI dashboard for churn monitoring**
