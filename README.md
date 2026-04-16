@@ -2,35 +2,75 @@
 **SQL | Power BI | Machine Learning**
 
 ---
-
- 📊 Telecom Customer Churn Analysis | SQL, Power BI, Python
-🔹 Objective
+### Objective
 
 Analyze telecom customer data to identify churn patterns, understand customer behavior, and support data-driven retention strategies.
 
-🔹 Dataset Overview
+  1. Dataset Overview
 Total Records: 7,000+ customers
 Total Features: 32 columns
 Data was cleaned, validated, and structured for analysis using SQL and Python.
-🔹 Data Categorization
+ 2.  Data Categorization
 
 To improve analysis and reporting, the dataset was grouped into the following categories:
 
-Demographics
-Gender, Age, Marital Status, State
-Customer Engagement
-Tenure (in months), Number of Referrals
-Services & Product Usage
-Phone Service, Multiple Lines, Internet Service, Internet Type
-Online Security, Online Backup, Device Protection Plan, Premium Support
-Streaming TV, Movies, Music, Unlimited Data
-Account & Billing Information
-Contract Type, Paperless Billing, Payment Method
-Financial Metrics
-Monthly Charges, Total Charges, Total Revenue
-Total Refunds, Extra Data Charges, Long Distance Charges
-Churn Insights
-Customer Status, Churn Category, Churn Reason
+🔹 1. Customer Demographics
+Gender
+Age
+Marital Status
+State
+
+👉 (Who the customer is)
+
+🔹 2. Customer Lifecycle & Engagement
+Tenure (in months)
+Number of Referrals
+
+👉 (How long & how actively they are engaged)
+
+🔹 3. Services & Subscription Details
+Phone Service
+Multiple Lines
+Internet Service
+Internet Type
+
+👉 (Core telecom services used)
+
+🔹 4. Value-Added Services (VAS)
+Online Security
+Online Backup
+Device Protection Plan
+Premium Support
+Streaming TV
+Streaming Movies
+Streaming Music
+Unlimited Data
+
+👉 (Additional features influencing retention)
+
+🔹 5. Billing & Contract Information
+Contract Type
+Paperless Billing
+Payment Method
+
+👉 (How the customer is billed and tied to the service)
+
+🔹 6. Financial Metrics
+Monthly Charges
+Total Charges
+Total Revenue
+Total Refunds
+Extra Data Charges
+Long Distance Charges
+
+👉 (Revenue contribution & spending behavior)
+
+🔹 7. Churn & Outcome Variables
+Customer Status
+Churn Category
+Churn Reason
+
+👉 (Final outcome — whether customer stayed or churned and why)
 
 ---
 
