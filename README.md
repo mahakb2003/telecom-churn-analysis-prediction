@@ -3,11 +3,34 @@
 
 ---
 
- 📊 Project Summary
+ 📊 Telecom Customer Churn Analysis | SQL, Power BI, Python
+🔹 Objective
 
-This project analyzes telecom customer data to **identify churn patterns, understand customer behavior, and predict future churners** using an end-to-end analytics pipeline built with **SQL Server, Power BI, and Python Machine Learning**.
+Analyze telecom customer data to identify churn patterns, understand customer behavior, and support data-driven retention strategies.
 
-The solution helps telecom businesses understand **why customers leave and which customers are likely to churn**, enabling targeted retention strategies.
+🔹 Dataset Overview
+Total Records: 7,000+ customers
+Total Features: 32 columns
+Data was cleaned, validated, and structured for analysis using SQL and Python.
+🔹 Data Categorization
+
+To improve analysis and reporting, the dataset was grouped into the following categories:
+
+Demographics
+Gender, Age, Marital Status, State
+Customer Engagement
+Tenure (in months), Number of Referrals
+Services & Product Usage
+Phone Service, Multiple Lines, Internet Service, Internet Type
+Online Security, Online Backup, Device Protection Plan, Premium Support
+Streaming TV, Movies, Music, Unlimited Data
+Account & Billing Information
+Contract Type, Paperless Billing, Payment Method
+Financial Metrics
+Monthly Charges, Total Charges, Total Revenue
+Total Refunds, Extra Data Charges, Long Distance Charges
+Churn Insights
+Customer Status, Churn Category, Churn Reason
 
 ---
 
